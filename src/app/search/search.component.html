@@ -1,0 +1,7 @@
+<!-- Search bar and Search button -->
+<div class="col-lg-2">
+    <form id="form" class="Searchheader">
+        <input class="search" type="text" id="query" name="q" placeholder="Search Here..." [(ngModel)]="searchText">
+        <button (click)="searchFilter(searchText)"><b>Search</b></button>
+    </form>
+</div>

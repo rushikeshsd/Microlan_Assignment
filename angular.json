@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Microlan-Assign"
+    }
+  },
+  "defaultProject": "Microlan-Assign",
+  "cli": {
+    "analytics": false
+  }
 }
